@@ -14,7 +14,7 @@ The **Telecom Customer Churn Risk Analytics System** is an end-to-end machine le
 Customer churn is a critical business challenge in the telecom industry, directly impacting revenue and customer lifetime value.  
 This system analyzes customer demographics, service usage patterns, contract details, and billing behavior to estimate churn probability and classify risk levels.
 
-The application integrates data preprocessing, feature engineering, model training, evaluation, and an interactive Streamlit dashboard for real-time churn risk assessment.
+The solution integrates data preprocessing, feature engineering, supervised model training, evaluation, and an interactive Streamlit dashboard for real-time churn risk assessment.
 
 ---
 
@@ -68,6 +68,7 @@ The system follows a standard supervised machine learning workflow:
 6. Probability-based churn prediction  
 7. Interactive risk assessment via dashboard  
 
+**Best Model Performance:** Logistic Regression achieved **ROC–AUC: 0.842** on validation data.
 ---
 
 ## 6. Project Structure
@@ -133,7 +134,7 @@ The Streamlit dashboard allows users to:
 
 ---
 
-## 9. Output Behavior
+## 9. Output Interpretation
 
 - **Low Churn Risk**  
   Customer is likely to remain with the service. Regular engagement is sufficient.
@@ -159,7 +160,7 @@ The Streamlit dashboard allows users to:
 ## 11. Limitations
 
 - Model performance depends on data quality  
-- Predictions are probabilistic, not deterministic  
+- Periodic retraining is required for different telecom markets.
 - Dataset represents historical behavior only  
 - Requires retraining for different telecom markets  
 
