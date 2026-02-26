@@ -68,7 +68,7 @@ The system follows a standard supervised machine learning workflow:
 6. Probability-based churn prediction  
 7. Interactive risk assessment via dashboard  
 
-Best Model Performance: Logistic Regression achieved ROC–AUC 0.842 on validation data.
+Best model performance: Logistic Regression achieved ROC–AUC 0.842 on validation data.
 ---
 
 ## 6. Project Structure
